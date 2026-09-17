@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+._*
+
+# Editor / tooling noise
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+node_modules/
+
+# Credentials — never commit these.
+# If you later automate publishing, the GitHub token file goes here.
+.github-token
+*.token
+.env

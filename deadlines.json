@@ -1,0 +1,1016 @@
+{
+  "generated": "2026-09-16",
+  "next_update": "2026-09-28",
+  "update_cadence": "every 14 days",
+  "run_number": 1,
+  "notes": "AoE = Anywhere on Earth = UTC-12. instant_utc is the absolute moment the deadline passes, used by the dashboard for countdowns and Eastern-time conversion. Dates with no stated clock time have instant_utc set to 23:59 in the stated time zone where one is given, otherwise null.",
+  "venues": [
+    {
+      "name": "ACM CHI",
+      "full_name": "ACM CHI Conference on Human Factors in Computing Systems (CHI 2027)",
+      "type": "conference",
+      "tags": [
+        "HCI",
+        "health"
+      ],
+      "cycle": "CHI 2027",
+      "homepage": "https://chi2027.acm.org/",
+      "conference_dates": "May 10-14, 2027",
+      "location": "Pittsburgh, PA, USA",
+      "conference_dates_status": "confirmed",
+      "venue_notes": "",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Papers: submission",
+          "date": "2026-09-10",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-09-11T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/papers/",
+          "checked": "2026-09-16",
+          "note": "Passed. No separate abstract deadline this cycle."
+        },
+        {
+          "label": "Papers: reviews released",
+          "date": "2026-11-05",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-11-06T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/papers/",
+          "checked": "2026-09-16",
+          "note": "Start of revise-and-resubmit window."
+        },
+        {
+          "label": "Papers: resubmission (revise-and-resubmit)",
+          "date": "2026-12-03",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-12-04T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/papers/",
+          "checked": "2026-09-16",
+          "note": "Revision period runs Nov 5 - Dec 3, 2026. This replaces a rebuttal period."
+        },
+        {
+          "label": "Papers: final notification",
+          "date": "2026-12-17",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-12-18T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Papers: e-rights completion",
+          "date": "2027-01-07",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-01-08T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Papers: TAPS upload",
+          "date": "2027-01-14",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-01-15T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Papers: camera-ready (publication-ready)",
+          "date": "2027-02-18",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-02-19T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Workshops: juror application",
+          "date": "2026-09-28",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-09-29T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/workshops/",
+          "checked": "2026-09-16",
+          "note": "Apply to serve on the workshops jury, not a submission."
+        },
+        {
+          "label": "Workshops: organizer proposal",
+          "date": "2026-10-01",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-10-02T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/workshops/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Workshops: organizer notification",
+          "date": "2026-11-19",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-11-20T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/workshops/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Workshops: call for participation released",
+          "date": "2026-12-17",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-12-18T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/workshops/",
+          "checked": "2026-09-16",
+          "note": "Accepted workshop list posted the same day."
+        },
+        {
+          "label": "Workshops: participant submission (typical)",
+          "date": "2027-02-11",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2027-02-12T11:59:00Z",
+          "status": "projected",
+          "source_url": "https://chi2027.acm.org/authors/workshops/",
+          "checked": "2026-09-16",
+          "note": "Approximate. Each accepted workshop sets its own participant deadline."
+        },
+        {
+          "label": "Posters: submission",
+          "date": "2027-01-21",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-01-22T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/posters/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Posters: notification",
+          "date": "2027-02-18",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-02-19T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/posters/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Posters: camera-ready",
+          "date": "2027-03-18",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-03-19T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/authors/posters/",
+          "checked": "2026-09-16",
+          "note": "Video presentation due the same day."
+        },
+        {
+          "label": "Late-Breaking Work: submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://chi2027.acm.org/authors/",
+          "checked": "2026-09-16",
+          "note": "No LBW track is listed for CHI 2027. The author-tracks page lists Papers, Posters, Interactive Demos, Panels, Workshops, Meet-Ups and SRC only. Posters may have absorbed LBW, but I could not verify that."
+        },
+        {
+          "label": "Interactive Demos: submission",
+          "date": "2027-01-21",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2027-01-22T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/",
+          "checked": "2026-09-16",
+          "note": "Notification Feb 18, 2027."
+        },
+        {
+          "label": "Panels: submission",
+          "date": "2026-11-19",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2026-11-20T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/",
+          "checked": "2026-09-16",
+          "note": "Notification Jan 14, 2027."
+        },
+        {
+          "label": "Meet-Ups: submission",
+          "date": "2026-10-01",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2026-10-02T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/",
+          "checked": "2026-09-16",
+          "note": "Notification Nov 19, 2026."
+        },
+        {
+          "label": "Student Research Competition: submission",
+          "date": "2027-01-21",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2027-01-22T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chi2027.acm.org/",
+          "checked": "2026-09-16",
+          "note": "Notification Feb 18, 2027."
+        },
+        {
+          "label": "Doctoral Consortium: submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://chi2027.acm.org/authors/",
+          "checked": "2026-09-16",
+          "note": "No DC page exists yet for CHI 2027."
+        },
+        {
+          "label": "Student Volunteers: application",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://chi2027.acm.org/",
+          "checked": "2026-09-16",
+          "note": "No SV page exists yet for CHI 2027."
+        },
+        {
+          "label": "Travel grants: application",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://chi2027.acm.org/",
+          "checked": "2026-09-16",
+          "note": "No travel grant page exists yet for CHI 2027."
+        }
+      ]
+    },
+    {
+      "name": "ACM UbiComp",
+      "full_name": "ACM UbiComp / ISWC 2026",
+      "type": "conference",
+      "tags": [
+        "ubicomp",
+        "wearables"
+      ],
+      "cycle": "UbiComp/ISWC 2026",
+      "homepage": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+      "conference_dates": "Oct 11-15, 2026 (pre-conference Oct 11-12, main Oct 13-15)",
+      "location": "Shanghai International Convention Center, Shanghai, China",
+      "conference_dates_status": "confirmed",
+      "venue_notes": "IMWUT papers feed into UbiComp",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Registration: regular rate ends",
+          "date": "2026-10-01",
+          "time": null,
+          "tz": "local (CST, UTC+8)",
+          "instant_utc": "2026-10-01T15:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "checked": "2026-09-16",
+          "note": "Time zone not stated on the page; assumed end of day local Shanghai. Verify before relying on the exact hour."
+        },
+        {
+          "label": "ISWC Notes & Briefs: submission",
+          "date": "2026-05-24",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-05-25T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed. Extended from May 17, 2026."
+        },
+        {
+          "label": "Doctoral Colloquium: submission",
+          "date": "2026-06-19",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-06-20T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/doctoral-colloquium/",
+          "checked": "2026-09-16",
+          "note": "Passed. Extended from June 15, 2026. Colloquium held Oct 11, 2026."
+        },
+        {
+          "label": "Doctoral Colloquium: camera-ready",
+          "date": "2026-07-22",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-07-23T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/doctoral-colloquium/",
+          "checked": "2026-09-16",
+          "note": "Passed. Extended from July 20, 2026."
+        },
+        {
+          "label": "Workshop proposals",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "checked": "2026-09-16",
+          "note": "Track page exists but the 2026 deadline was not retrievable; the cycle has closed regardless."
+        },
+        {
+          "label": "Posters & Demos: submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "checked": "2026-09-16",
+          "note": "Track page exists but the 2026 deadline was not retrievable; the cycle has closed regardless."
+        },
+        {
+          "label": "Student Volunteers: application",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "checked": "2026-09-16",
+          "note": "Page listed under Attending; deadline not retrievable."
+        },
+        {
+          "label": "Travel grants: application",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "checked": "2026-09-16",
+          "note": "Page listed under Attending; deadline not retrievable. N2Women Fellowship listed separately."
+        },
+        {
+          "label": "UbiComp/ISWC 2027: cycle opens",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://www.ubicomp.org/",
+          "checked": "2026-09-16",
+          "note": "No UbiComp/ISWC 2027 site or call yet. Since ISWC long papers now route through IMWUT, the IMWUT cycle below is the real submission path."
+        }
+      ]
+    },
+    {
+      "name": "ACM IMWUT",
+      "full_name": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+      "type": "journal",
+      "tags": [
+        "ubicomp",
+        "wearables"
+      ],
+      "cycle": "2026-2027 rolling",
+      "homepage": "https://dl.acm.org/journal/imwut",
+      "conference_dates": "Papers present at UbiComp/ISWC",
+      "location": "n/a",
+      "conference_dates_status": "n/a",
+      "venue_notes": "verify current cycle dates",
+      "submission_cycle": "fixed cycles (see note)",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Cycle deadline: November",
+          "date": "2026-11-01",
+          "time": null,
+          "tz": "unstated",
+          "instant_utc": "2026-11-02T11:59:00Z",
+          "status": "projected",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
+          "checked": "2026-09-16",
+          "note": "The official ISWC 2026 CFP states IMWUT now has three deadlines a year: 1 February, 1 May, 1 November. This differs from the older four-cycle (Feb/May/Aug/Nov 15) schedule. IMWUT's own page at dl.acm.org returned HTTP 403 on every attempt, so I could not confirm the date or the clock time from the journal itself. Treat Nov 1 as indicative and verify before planning around it. instant_utc assumes 23:59 AoE."
+        },
+        {
+          "label": "Cycle deadline: February",
+          "date": "2027-02-01",
+          "time": null,
+          "tz": "unstated",
+          "instant_utc": "2027-02-02T11:59:00Z",
+          "status": "projected",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
+          "checked": "2026-09-16",
+          "note": "Same caveat as the November cycle."
+        },
+        {
+          "label": "Cycle deadline: May",
+          "date": "2027-05-01",
+          "time": null,
+          "tz": "unstated",
+          "instant_utc": "2027-05-02T11:59:00Z",
+          "status": "projected",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
+          "checked": "2026-09-16",
+          "note": "Same caveat as the November cycle."
+        },
+        {
+          "label": "Special issue calls",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://dl.acm.org/journal/imwut",
+          "checked": "2026-09-16",
+          "note": "Could not check for open special issue calls; the journal site was unreachable."
+        }
+      ]
+    },
+    {
+      "name": "ACM CSCW",
+      "full_name": "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+      "type": "conference",
+      "tags": [
+        "HCI",
+        "CSCW",
+        "health"
+      ],
+      "cycle": "CSCW 2026 (Salt Lake City) / CSCW 2027+ rolling",
+      "homepage": "https://cscw.acm.org/2026/",
+      "conference_dates": "Oct 10-14, 2026",
+      "location": "Salt Lake City, Utah, USA",
+      "conference_dates_status": "confirmed",
+      "venue_notes": "verify current submission cycle",
+      "submission_cycle": "rolling (papers), from CSCW 2027 onward",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Papers (CSCW 2027+): no fixed deadline",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "confirmed",
+          "source_url": "https://cscw.acm.org/rolling.html",
+          "checked": "2026-09-16",
+          "note": "MAJOR CHANGE. CSCW has moved to rolling submission. The official page states there are no submission deadlines for any year's conference. Papers are accepted through PACM HCI (CSCW) or TOCHI, and on acceptance authors are emailed to request a presentation slot at whichever conference the timing allows."
+        },
+        {
+          "label": "Doctoral Consortium (2026): submission",
+          "date": "2026-05-15",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-05-16T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://cscw.acm.org/2026/dc.html",
+          "checked": "2026-09-16",
+          "note": "Passed. DC held Oct 11, 2026 with an optional dinner Oct 10."
+        },
+        {
+          "label": "Doctoral Consortium (2026): camera-ready",
+          "date": "2026-06-26",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-06-27T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://cscw.acm.org/2026/dc.html",
+          "checked": "2026-09-16",
+          "note": "Passed."
+        },
+        {
+          "label": "Doctoral Consortium (2027): submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://cscw.acm.org/",
+          "checked": "2026-09-16",
+          "note": "No CSCW 2027 site yet. If it follows 2026, expect mid-May 2027, but no 2027 page exists to project from with confidence."
+        },
+        {
+          "label": "Workshops (2027): proposals",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://cscw.acm.org/",
+          "checked": "2026-09-16",
+          "note": "No CSCW 2027 site yet."
+        },
+        {
+          "label": "Student Volunteers (2027): application",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://cscw.acm.org/",
+          "checked": "2026-09-16",
+          "note": "No CSCW 2027 site yet."
+        }
+      ]
+    },
+    {
+      "name": "ACM UIST",
+      "full_name": "ACM Symposium on User Interface Software and Technology (UIST 2026)",
+      "type": "conference",
+      "tags": [
+        "HCI"
+      ],
+      "cycle": "UIST 2026",
+      "homepage": "https://uist.acm.org/2026/cfp/",
+      "conference_dates": "Nov 2-5, 2026",
+      "location": "Detroit, MI, USA",
+      "conference_dates_status": "confirmed",
+      "venue_notes": "",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Papers: abstract",
+          "date": "2026-03-24",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-03-25T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed."
+        },
+        {
+          "label": "Papers: full submission",
+          "date": "2026-03-31",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-04-01T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed."
+        },
+        {
+          "label": "Papers: rebuttal due",
+          "date": "2026-06-05",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-06-06T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed. Reviews released May 28, 2026."
+        },
+        {
+          "label": "Papers: decisions",
+          "date": "2026-06-27",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2026-06-28T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed."
+        },
+        {
+          "label": "Papers: camera-ready (TAPS/PCS upload)",
+          "date": "2026-07-31",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-08-01T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed. Final acceptance Aug 7, video preview Aug 14, 2026."
+        },
+        {
+          "label": "Posters: submission",
+          "date": "2026-07-10",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-07-11T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed. Notification Aug 14, camera-ready Aug 21, 2026."
+        },
+        {
+          "label": "Demos: submission",
+          "date": "2026-07-10",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-07-11T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed. Notification Aug 14, camera-ready Aug 21, 2026."
+        },
+        {
+          "label": "Doctoral Symposium: submission",
+          "date": "2026-07-10",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-07-11T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed. Notification Aug 8, camera-ready Aug 21. Event Nov 2, 2026."
+        },
+        {
+          "label": "Student Volunteers: lottery application",
+          "date": "2026-08-01",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-08-02T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "Passed. Notification Aug 7, 2026."
+        },
+        {
+          "label": "UIST 2027: papers abstract",
+          "date": "2027-03-23",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2027-03-24T11:59:00Z",
+          "status": "projected",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "PROJECTED from the UIST 2026 pattern (abstract on the last Tuesday of March, paper one week later). No UIST 2027 site exists yet. Do not plan around the exact day."
+        },
+        {
+          "label": "UIST 2027: papers full submission",
+          "date": "2027-03-30",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2027-03-31T11:59:00Z",
+          "status": "projected",
+          "source_url": "https://uist.acm.org/2026/cfp/",
+          "checked": "2026-09-16",
+          "note": "PROJECTED from UIST 2026. No UIST 2027 site exists yet."
+        }
+      ]
+    },
+    {
+      "name": "ACM DIS",
+      "full_name": "ACM Designing Interactive Systems Conference 2027",
+      "type": "conference",
+      "tags": [
+        "HCI",
+        "design"
+      ],
+      "cycle": "DIS 2027",
+      "homepage": "https://dis.acm.org/2027/",
+      "conference_dates": "June 28 - July 2, 2027 (online presentations June 21-25; workshops June 26-27)",
+      "location": "KTH Royal Institute of Technology, Stockholm, Sweden",
+      "conference_dates_status": "confirmed",
+      "venue_notes": "",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Papers & Pictorials: title and abstract",
+          "date": "2027-01-11",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-01-12T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://dis.acm.org/2027/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "Submission site opens late fall 2026."
+        },
+        {
+          "label": "Papers & Pictorials: full submission",
+          "date": "2027-01-18",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-01-19T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://dis.acm.org/2027/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "Papers and Pictorials share this deadline."
+        },
+        {
+          "label": "Papers & Pictorials: notification",
+          "date": "2027-03-19",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-03-20T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://dis.acm.org/2027/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Workshops: proposal",
+          "date": "2027-02-01",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2027-02-02T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://dis.acm.org/2027/workshops/",
+          "checked": "2026-09-16",
+          "note": "Notification Feb 16, camera-ready Apr 16, 2027. Workshops held June 26-27."
+        },
+        {
+          "label": "Doctoral Consortium: submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://dis.acm.org/2027/dis-doctoral-consortium/",
+          "checked": "2026-09-16",
+          "note": "The DC page exists and confirms the DC runs in person at KTH, but lists no dates yet."
+        }
+      ]
+    },
+    {
+      "name": "MLHC",
+      "full_name": "Machine Learning for Healthcare Conference",
+      "type": "conference",
+      "tags": [
+        "ML",
+        "health"
+      ],
+      "cycle": "unknown",
+      "homepage": "https://www.mlforhc.org/",
+      "conference_dates": null,
+      "location": null,
+      "conference_dates_status": "unknown",
+      "venue_notes": "",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Papers: submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://www.mlforhc.org/",
+          "checked": "2026-09-16",
+          "note": "NOT VERIFIED. Every MLHC official domain I tried was unreachable: mlforhc.org and mlhc.org/2026-conference both returned robots.txt errors, and mlhc.org itself resolved to unrelated content. I will not take dates from aggregators, so nothing is recorded. Worth checking by hand in a browser."
+        },
+        {
+          "label": "Clinical abstracts: submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://www.mlforhc.org/",
+          "checked": "2026-09-16",
+          "note": "NOT VERIFIED. Same access problem."
+        }
+      ]
+    },
+    {
+      "name": "CHIL",
+      "full_name": "ACM Conference on Health, Inference, and Learning",
+      "type": "conference",
+      "tags": [
+        "ML",
+        "health"
+      ],
+      "cycle": "CHIL 2026 closed; CHIL 2027 not announced",
+      "homepage": "https://chil.ahli.cc/",
+      "conference_dates": "June 28-30, 2026 (2026 edition, completed)",
+      "location": "Seattle Children's Research Institute, Seattle, WA, USA",
+      "conference_dates_status": "confirmed",
+      "venue_notes": "",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Papers: submission (2026)",
+          "date": "2026-02-04",
+          "time": null,
+          "tz": "unstated",
+          "instant_utc": "2026-02-05T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chil.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "Passed. No time zone was stated on the page; instant assumes 23:59 AoE."
+        },
+        {
+          "label": "Papers: rebuttal (2026)",
+          "date": "2026-03-17",
+          "time": null,
+          "tz": "unstated",
+          "instant_utc": "2026-03-18T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chil.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "Passed. Reviews were due Mar 2, meta-reviews Mar 31, 2026."
+        },
+        {
+          "label": "Papers: notification (2026)",
+          "date": "2026-04-09",
+          "time": null,
+          "tz": "unstated",
+          "instant_utc": "2026-04-10T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://chil.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "Passed."
+        },
+        {
+          "label": "Papers: submission (2027)",
+          "date": "2027-02-03",
+          "time": null,
+          "tz": "unstated",
+          "instant_utc": "2027-02-04T11:59:00Z",
+          "status": "projected",
+          "source_url": "https://chil.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "PROJECTED from CHIL 2026 (submissions due the first Wednesday of February, site opening the prior December). No CHIL 2027 announcement exists. Do not plan around the exact day."
+        },
+        {
+          "label": "Doctoral Symposium: submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://chil.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "No doctoral symposium dates listed on the CHIL 2026 call for papers."
+        }
+      ]
+    },
+    {
+      "name": "ML4H",
+      "full_name": "AHLI Machine Learning for Health Symposium 2026",
+      "type": "symposium",
+      "tags": [
+        "ML",
+        "health"
+      ],
+      "cycle": "ML4H 2026",
+      "homepage": "https://ml4h.ahli.cc/",
+      "conference_dates": "December 6-7, 2026",
+      "location": "Sydney, Australia",
+      "conference_dates_status": "confirmed",
+      "venue_notes": "",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Proceedings & Findings tracks: submission",
+          "date": "2026-09-10",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-09-11T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "Passed. Both tracks share one deadline: Proceedings up to 8 pages, Findings up to 4. No separate extended-abstract deadline this year."
+        },
+        {
+          "label": "Reviews released",
+          "date": "2026-10-05",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2026-10-06T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Author response period ends",
+          "date": "2026-10-12",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-10-13T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Decisions released",
+          "date": "2026-10-22",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2026-10-23T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Early Career Travel Grant: application",
+          "date": "2026-10-31",
+          "time": "23:59",
+          "tz": "AoE",
+          "instant_utc": "2026-11-01T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": ""
+        },
+        {
+          "label": "Camera-ready",
+          "date": "2026-11-07",
+          "time": null,
+          "tz": "AoE",
+          "instant_utc": "2026-11-08T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+          "checked": "2026-09-16",
+          "note": "Marked tentative on the official page."
+        }
+      ]
+    },
+    {
+      "name": "ACM Interactive Health",
+      "full_name": "ACM Interactive Health Conference (IH)",
+      "type": "conference",
+      "tags": [
+        "HCI",
+        "health"
+      ],
+      "cycle": "IH'26 completed; IH'27 not announced",
+      "homepage": "https://ih.acm.org/",
+      "conference_dates": "July 5-8, 2026 (IH'26, completed)",
+      "location": "Auditorio Francisco de Assis, Colegio Luso-Frances, Porto, Portugal",
+      "conference_dates_status": "confirmed",
+      "venue_notes": "Name confirmed this run: ACM Interactive Health Conference, ih.acm.org, inaugural edition 2026",
+      "last_checked": "2026-09-16",
+      "dates": [
+        {
+          "label": "Early Career Workshop: submission (2026)",
+          "date": "2026-04-01",
+          "time": null,
+          "tz": "unstated",
+          "instant_utc": "2026-04-02T11:59:00Z",
+          "status": "confirmed",
+          "source_url": "https://ih.acm.org/participate",
+          "checked": "2026-09-16",
+          "note": "Passed. Latest 2026 deadline on the participate page. Time zone not stated; instant assumes 23:59 AoE."
+        },
+        {
+          "label": "Papers (2027): submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://ih.acm.org/participate",
+          "checked": "2026-09-16",
+          "note": "No IH'27 cycle announced. The site still shows only 2026 content. Because 2026 was the inaugural edition there is no multi-year pattern to project from, so nothing is estimated."
+        },
+        {
+          "label": "Workshops (2027): proposal",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://ih.acm.org/participate",
+          "checked": "2026-09-16",
+          "note": "No IH'27 cycle announced."
+        },
+        {
+          "label": "Doctoral Consortium (2027): submission",
+          "date": null,
+          "time": null,
+          "tz": null,
+          "instant_utc": null,
+          "status": "unknown",
+          "source_url": "https://ih.acm.org/participate",
+          "checked": "2026-09-16",
+          "note": "No IH'27 cycle announced."
+        }
+      ]
+    }
+  ]
+}
