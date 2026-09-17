@@ -5,7 +5,7 @@ and machine-learning-for-health venues. Every date carries its source link, the
 time zone it was stated in, and whether it was confirmed on an official page or
 estimated.
 
-**Live page:** https://USERNAME.github.io/venue-tracker/
+**Live page:** https://emmaricci.github.io/venue-tracker
 
 ## Reading the dashboard
 
