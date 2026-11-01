@@ -1,5 +1,84 @@
 # Changelog
 
+## 2026-11-01 — Run 2b (manual, same day)
+
+Changes Emma asked for directly, on top of the automated Run 2 earlier the same day.
+
+### Venues added
+
+- **HAIC — Human-AI Interaction Conference 2027** (inaugural), June 27–30 2027, Hopkins Bloomberg Center, Washington DC. Conference dates confirmed. The submission deadline is recorded as `unknown`: the official site says only "Late January 2027" with no day, time or time zone, and the full call is still "coming soon". Nothing was estimated, because an inaugural edition has no prior cycle to project from.
+- **ACM ICMI — International Conference on Multimodal Interaction.** ICMI 2026 (Napoli, Oct 5–9 2026) recorded in full across 13 tracks, all now passed. Note the page's own rule: every deadline is 23:59 PDT except the paper submission, which is AoE. Several 2026 deadlines were shown struck through or marked extended. ICMI 2027 is `unknown` and deliberately not projected — the only cycle on record had several extended deadlines, making it a poor basis for estimation, and searches surfaced only predatory aggregator listings reusing the ICMI name, which were disregarded.
+- **ACM HEALTH — ACM Transactions on Computing for Healthcare**, tracked for the Special Section on Human-Centered Computing in Healthcare. Emma supplied the official call-for-papers PDF after ACM's bot protection blocked every automated attempt to read dl.acm.org, including through a real browser.
+
+### Correction
+
+An earlier draft of the ACM HEALTH entry inferred from indirect evidence that the special section's call had probably closed. **That was wrong.** The call Emma supplied shows it is open, rolling, with a last new submission date of **1 February 2027**. The inference had been recorded as `unknown` rather than as a date, so no false deadline ever entered the data, but the reasoning is noted here because it was wrong and the same indirect signals may recur. Also recorded from that call: authors of each submission are collectively expected to volunteer to review at least three submissions, and the corresponding author must complete a reviewer form before the guest editors will send the paper out for review. No clock time or time zone appears anywhere in the call; the stored instant assumes 23:59 AoE.
+
+### New field: category
+
+Every tracked date now carries a `category`, saying what sort of opportunity or obligation it is, independent of its confirmed/projected status. All 101 entries are labelled across 15 values: manuscript, rebuttal, notification, camera-ready, poster-demo, workshop-organization, workshop-participation, doctoral-consortium, student-volunteer, travel-grant, reviewing, registration, journal-cycle, panel-meetup, event.
+
+Workshop organizing and workshop participation are deliberately separate. Two judgement calls worth knowing about: CHI 2027's Student Mentoring Program (Dissertation Research Roundtable) is filed under `doctoral-consortium`, since it may be that cycle's replacement for the DC, though nothing official says so; and "Workshops: organizer notification" is filed under `workshop-organization` rather than `notification`, to keep the organizer track together under a filter.
+
+### Dashboard
+
+- The top section is now **Next 30 days**, down from 60.
+- Urgency labels (DUE SOON / APPROACHING) moved from beside the title to beside the date they qualify.
+- Every upcoming entry now carries a direct source link.
+- Category badges appear in both sections, with a Category filter in the venue toolbar. Filtering by category re-ranks each venue by its next deadline *of that category*, and highlights matching rows inside an expanded venue.
+- Fixed: a deadline that had passed within the previous 24 hours could still show as due "Today", because the countdown rounded to whole days. Upcoming entries are now filtered on the exact instant. ML4H's Early Career Travel Grant (31 Oct, 23:59 AoE) was the case that exposed it.
+
+### Also in this pass
+
+- The three new venues were appended to `venues.md`, so the scheduled refresh keeps tracking them. That file is otherwise Emma's to edit; this was done at her request.
+- The new field was first called `kind` and was renamed to `category` before anything was committed. "Track" was considered and rejected: several values (notification, camera-ready, registration) are stages rather than tracks, so the word would have been wrong for roughly a third of the entries.
+
+### Schedule reconciled
+
+The scheduled refresh runs **monthly on the 1st** (07:00 Europe/Rome). `next_update` is now 2026-12-01 and `update_cadence` reads "monthly, on the 1st", so the date in the page header matches when the task actually fires. The task's own instructions were rewritten to match; they previously described a fortnightly gate on a Monday schedule.
+
+### IMWUT confirmed, and a missing deadline found
+
+Emma supplied IMWUT's own submission guidance, which dl.acm.org had blocked on every previous run. Three things follow.
+
+**The projected schedule was right.** New submissions are accepted three times a year — 1 February, 1 May, 1 November — exactly as projected since run 1. All three are upgraded from `projected` to `confirmed`. The assumed 23:59 AoE cutoff was also correct: the guidance states every IMWUT deadline closes at 23:59 AoE on the date itself, and that deadlines are firm with no extensions granted.
+
+**A deadline was missing entirely: 1 August.** It is open only to papers that received a major-revision decision, and is closed to new submissions. A paper that receives major revisions may resubmit at either of the two deadlines following its original submission — so a 1 February submission can resubmit on 1 May or 1 August. This is now tracked as its own entry under the `rebuttal` category. Nothing in the tracker had carried it before.
+
+**Also recorded:** the submission site (new.precisionconference.com/submissions) opens roughly two weeks before each deadline, and authors of accepted papers are invited to present at UbiComp/ISWC each year.
+
+Source provenance is noted on every entry: the text came from Emma rather than from a page this tracker could read, since ACM's bot protection stops both automated fetches and a real browser.
+
+The SIGCHI UbiComp 2027 page was also checked. It confirms the conference dates already recorded in Run 2 (3-7 Oct 2027, Seoul Dragon City) and carries no IMWUT deadlines, which is expected: the journal sets its own cycles and conference pages restate them only incidentally.
+
+## 2026-11-01 — Run 2
+
+Second run, about five weeks late (the schedule's `next_update` had been 2026-09-28; this run processes all changes since the 2026-09-16 baseline in one pass).
+
+### Changed dates (flagged per policy)
+
+- **ML4H 2026 — "Decisions released" moved from Oct 22, 2026 to Oct 26, 2026** on the official call-for-papers page (ml4h.ahli.cc). Both dates are already in the past as of today, so this has no forward-looking effect, but it's a change to a previously confirmed date and is flagged as required.
+
+### Newly confirmed / resolved
+
+- **CHIL 2027 call for papers is now published.** Submission deadline Feb 3, 2027 — upgraded from `projected` to `confirmed` (the projection made last run matched exactly). Also added: author/reviewer discussion (Mar 26, 2027), meta-review deadline (Apr 2, 2027), notification (Apr 12, 2027). No time zone stated on the page for any of these; `instant_utc` assumes 23:59 AoE as before. Doctoral symposium still has no dates.
+- **UbiComp/ISWC 2027 is now announced**: Oct 3–7, 2027, Seoul Dragon City, Seoul, South Korea. No call-for-papers or deadlines yet. Venue-level fields in `deadlines.json` now point at this 2027 cycle instead of the completed 2026 one; IMWUT remains the real submission path for long papers.
+- **MLHC open item partially resolved.** `mlhc.org` is reachable again and is the genuine official site (previous runs found it unreachable, or showing unrelated content). It confirms MLHC 2027 will be Aug 11–13, 2027 at ETH Zurich, Switzerland, but says the call for papers is "details coming soon" — so submission deadlines are still `unknown`. Will keep checking each run as instructed.
+- **ACM CHI 2027** — two newly published dates: conference registration deadline and video presentation deadline, both Mar 4, 2027. Also found a new **Student Mentoring Program: Dissertation Research Roundtable** track (submission Jan 21, 2027; notification Feb 18, 2027), which may be CHI 2027's replacement for the traditional Doctoral Consortium — not confirmed as such, so DC itself remains recorded as `unknown`.
+
+### Could not verify this run
+
+- **MLHC papers / clinical abstracts submission deadlines** — site is up but CFP isn't published yet. Per the task's standing instruction, will try again next run.
+- **ACM CHI 2027 Doctoral Consortium, Student Volunteers, and Travel Grants** — no pages found for any of the three (the DC URL now 404s). SV and travel grant pages have never existed for this cycle.
+- **IMWUT November 2026 cycle deadline** — dl.acm.org/journal/imwut still returns a client error on every attempt, so the Nov 1, 2026 date remains `projected`, not `confirmed`, and its time zone is still unstated. Note: today is Nov 1, 2026 — if this is in fact the live deadline, Emma should verify the exact cutoff directly in the submission system rather than relying on the assumed AoE time here.
+- **ML4H Early Career Travel Grant** (previously Oct 31, 2026) — no longer findable on the current call-for-papers page, which now mentions an "Author, Reviewer and Career Mentorship Program" instead with no date given. Left the old date in place since it's already past and there's no live risk either way; flagging the discrepancy for the record.
+- **ACM DIS 2027 Doctoral Consortium** — still no dates; the page now at least gives a contact address (dc@dis2027.acm.org) and a 16-participant cap.
+
+### Unchanged, re-verified
+
+ACM CHI papers/workshops core dates, ACM DIS papers & pictorials dates, ACM CSCW rolling-submission status and 2026 DC, ACM UIST 2026 (all passed) and projected UIST 2027 dates, ML4H camera-ready (still "tentative"), ACM Interactive Health (IH'27 still not announced) — all re-checked against their official pages with no changes found.
+
+
 ## 2026-09-16 — Run 1 (first run)
 
 First run. `deadlines.json`, `dashboard.html` and this changelog created from scratch against the ten venues in `venues.md`.
